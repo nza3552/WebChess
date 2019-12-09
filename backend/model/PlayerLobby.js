@@ -10,7 +10,7 @@ class PlayerLobby
         if(this.playerByName(name))
         {
             return false;
-        }
+        } 
         else
         {
             let p = new Player(name)
